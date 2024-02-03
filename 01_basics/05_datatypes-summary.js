@@ -46,3 +46,30 @@ console.log(typeof anotherId);
 //              Boolean	                                            "boolean"
 //              Number	                                            "number"
 //              String	                                            "string"
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive)
+
+let myYoutubename = "tejzprakashhdotcom"
+
+let anothername = myYoutubename
+anothername = "codewithtejz"
+
+console.log(anothername);
+console.log(myYoutubename);
+
+// Heap (Non - Primitive)
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "user2@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
