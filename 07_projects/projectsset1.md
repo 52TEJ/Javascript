@@ -8,9 +8,8 @@
 
 ## project 1
 
-
 ```Javascript
-console.log("Tejz)
+// console.log("Tejz)
 
 const buttons = document.querySelectorAll('.button');
 const body = document.querySelector('body');
@@ -78,5 +77,19 @@ form.addEventListener('submit', function (e) {
 // else results.innerHTML =
 //     `Over Weight : <span>${bmi}</span>`;
 });
+
+```
+
+## project - 3
+
+``` Javascript
+
+const clock = document.getElementById('clock')
+
+setInterval(function(){
+  let date = new Date()
+  // console.log(date.toLocaleTimeString());
+  clock.innerHTML = date.toLocaleTimeString();
+}, 1000);
 
 ```
