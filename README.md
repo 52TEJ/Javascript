@@ -1,3 +1,3 @@
-# JS-Youtube
+# Javascript
 A code repo for JavaScript.
 
